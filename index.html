@@ -1,46 +1,786 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Example 2: Spring-mass system</title>
-  </head>
-  <body>
-    <h3>1.2.11 Example: Spring-mass system</h3>
-    <p> <br />
-      A mass suspended from a spring, displaced vertically and released to move
-      freely to produce up and down motion </p>
-    <img src="SHM02/verticalspring.gif" alt="" />
-    <p>The model view of a mass suspended from a spring, displaced vertically
-      and released to move freely to produce up and down motion with right panel
-      showing the displacement, velocity and acceleration.  </p>
-    <img src="SHMvertical/2015-02-24_1330.png" />
-    <h2> Q1: under what conditions would this vertical spring mass system’s
-      motion be not well modeled as a simple harmonic motion?</h2>
-    <p><br />
-      H1: the model assumes the restoring force by the spring is F = -ky, it is
-      always correct for any magnitude of oscillation y in real springs. Is it
-      always valid in the real spring motion when the spring is hyper extending
-      beyond the linear limits of Hooke's Law ?</p>
-    <h2>Q2: change the simulation y=0 m and Play the model. In the your model Y
-      = _________, suggest your own suitable model that can describe the motion
-      y.</h2>
-    <h2>Q3: in this same motion, propose the velocity and acceleration model(s)</h2>
-    <h2>Q4: carry out some other conditions, verify that the general equations
-      for displacments if can be model by Y = Y<sub>0</sub>sin(ωt+φ)+Y<sub>shift</sub>
-      where the usual symbols have the usual meaning. Hence or otherwise,
-      Suggest with reasons, the meaning of Y<sub>0</sub> , ω , φ , and Y<sub>shift</sub>.</h2>
-    <h2>Q5: similarly, suggest whether the model(s) for velocity, v<sub>Y</sub>
-      =ωY<sub>0</sub>cos(ωt+φ) and </h2>
-    <h2>a<sub>Y</sub> = - ω<sup>2</sup>Y<sub>0</sub>sin(ωt+φ). Test them out
-      using an example of your choice. </h2>
-
-      
-    <h3>YouTube videos coming soon</h3>
-    
-    Ngonidzashe Maphosa- <a href=""
-      target="_blank">please contact @ngonimaps on twitter for support</a><br />
-    <br />
-   
+<!DOCTYPE html>
+<html amp>
+<head>
+  <!-- Site made with 8b Website Builder v0.0.0.0, https://8b.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="8b v0.0.0.0, 8b.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="https://app.8b.io/app/themes/webamp/projects/shop/assets/images/logo.png" type="image/x-icon">
+  <meta name="description" content="">
+  <title>vendors hub</title>
   
-  </body>
+<link rel="canonical" href="index.html">
+ <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+ 
+ <style amp-custom>div,span,h1,h2,h3,h4,p,a,ul,li,textarea,input{font: inherit;}*{box-sizing: border-box;outline: none;}*:focus{outline: none;}body{position: relative;font-style: normal;line-height: 1.5;color: #000000;}section{background-color: #ffffff;background-position: 50% 50%;background-repeat: no-repeat;background-size: cover;overflow: hidden;padding: 30px 0;}section,.container{position: relative;word-wrap: break-word;}h1,h2,h3,h4{margin: 0;padding: 0;}p,li{letter-spacing: 0.5px;line-height: 1.7;}ul,p{margin-bottom: 0;margin-top: 0;}a{cursor: pointer;}a,a:hover{text-decoration: none;}h1,h2,h3,h4,.display-1,.display-2,.display-4,.display-5,.display-7{word-break: break-word;word-wrap: break-word;}input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus,input:-webkit-autofill:active{transition-delay: 9999s;transition-property: background-color,color;}body{height: auto;min-height: 100vh;}.mbr-section-title{margin: 0;padding: 0;font-style: normal;line-height: 1.2;width: 100%;}.mbr-section-subtitle{line-height: 1.3;width: 100%;}.mbr-text{font-style: normal;line-height: 1.6;width: 100%;}.btn{text-align: center;position: relative;margin: .4rem .8rem;font-weight: 700;border-width: 2px;border-style: solid;font-style: normal;white-space: normal;transition: all .2s ease-in-out,box-shadow 2s ease-in-out;display: inline-flex;align-items: center;justify-content: center;word-break: break-word;line-height: 1.5;letter-spacing: 1px;}.btn-form{padding: 1rem 2rem;}.btn-form:hover{cursor: pointer;}.card-title{margin: 0;}.card-img{border-radius: 0;width: auto;flex-shrink: 0;}.card{position: relative;background-color: transparent;border: none;border-radius: 0;width: 100%;padding-left: 1rem;padding-right: 1rem;}@media (max-width: 767px){.card:not(.last-child){padding-bottom: 2rem;}}.card .card-wrapper{height: 100%;}@media (max-width: 767px){.card .card-wrapper{flex-direction: column;}}@media (max-width: 991px){.md-pb{padding-bottom: 2rem;}}.gallery-img-wrap amp-img{height: 100%;}.icons-list a{margin-right: 1rem;}.icons-list a:last-child{margin-right: 0;}amp-image-lightbox a.control{position: absolute;width: 32px;height: 32px;right: 48px;top: 32px;z-index: 1000;}amp-image-lightbox a.control .close{position: relative;}amp-image-lightbox a.control .close:before,amp-image-lightbox a.control .close:after{position: absolute;left: 15px;content: ' ';height: 33px;width: 2px;background-color: #fff;}amp-image-lightbox a.control .close:before{transform: rotate(45deg);}amp-image-lightbox a.control .close:after{transform: rotate(-45deg);}.mbr-white{color: #ffffff;}.mbr-black{color: #000000;}.align-left{text-align: left;}.align-center{text-align: center;}@media (max-width: 767px){.align-left,.align-center{text-align: center;}}.mbr-light{font-weight: 300;}.mbr-regular{font-weight: 400;}.mbr-semibold{font-weight: 500;}.mbr-section-btn{margin-left: -.8rem;margin-right: -.8rem;font-size: 0;}.mbr-overlay{bottom: 0;left: 0;position: absolute;right: 0;top: 0;z-index: 0;}section.menu{min-height: 70px;}.menu-container{display: flex;justify-content: space-between;align-items: center;min-height: 70px;}@media (max-width: 991px){.menu-container{max-width: 100%;padding: 0 2rem;}}@media (max-width: 767px){.menu-container{padding: 0 1rem;}}.navbar{z-index: 100;width: 100%;}.navbar-fixed-top{position: fixed;top: 0;}.navbar-brand{display: flex;align-items: center;word-break: break-word;z-index: 1;}@media (max-width: 767px){.navbar-logo amp-img{max-height: 55px;max-width: 55px;}}.navbar-caption-wrap{display: flex;}.navbar .navbar-collapse{display: flex;flex-basis: auto;align-items: center;justify-content: flex-end;}@media (max-width: 991px){.navbar .navbar-collapse{display: none;position: absolute;top: 0;right: 0;min-height: 100vh;padding: 70px 2rem 1rem;z-index: 1;}}.navbar-nav{list-style-type: none;display: flex;flex-wrap: wrap;padding-left: 0;min-width: 10rem;}@media (max-width: 991px){.navbar-nav{flex-direction: column;}}.nav-item{word-break: break-all;}.nav-link{display: flex;align-items: center;justify-content: center;}.nav-link,.navbar-caption{transition: all 0.2s;letter-spacing: 1px;}.hamburger span{position: absolute;right: 0;width: 30px;height: 2px;border-right: 5px;}.hamburger span:nth-child(1){top: 0;transition: all .2s;}.hamburger span:nth-child(2){top: 8px;transition: all .15s;}.hamburger span:nth-child(3){top: 8px;transition: all .15s;}.hamburger span:nth-child(4){top: 16px;transition: all .2s;}.ampstart-btn.hamburger{position: absolute;top: 25px;right: 15px;margin-left: auto;width: 30px;height: 20px;background: none;border: none;cursor: pointer;z-index: 1000;}@media (min-width: 992px){.ampstart-btn,amp-sidebar{display: none;}}.close-sidebar{width: 30px;height: 30px;position: relative;cursor: pointer;background-color: transparent;border: none;}.close-sidebar span{position: absolute;left: 0;width: 30px;height: 2px;border-right: 5px;}.close-sidebar span:nth-child(1){transform: rotate(45deg);}.close-sidebar span:nth-child(2){transform: rotate(-45deg);}.builder-sidebar{position: relative;min-height: 100vh;z-index: 1030;padding: 1rem 2rem;max-width: 20rem;}div[submit-success]{padding: 1rem;margin-bottom: 1rem;}div[submit-error]{padding: 1rem;margin-bottom: 1rem;}amp-img{width: 100%;}amp-img img{max-height: 100%;max-width: 100%;}.is-builder amp-img > a + img[async],.is-builder amp-img > a + img[decoding="async"]{display: none;}html:not(.is-builder) amp-img > a{position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 1;}.is-builder .temp-amp-sizer{position: absolute;}.is-builder amp-youtube .temp-amp-sizer,.is-builder amp-vimeo .temp-amp-sizer{position: static;}.is-builder section.horizontal-menu .ampstart-btn{display: none;}div.placeholder{z-index: 4;background: rgba(255,255,255,0.5);}div.placeholder svg{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 20%;height: auto;}div.placeholder svg circle.big{animation: big-anim 3s linear infinite;}div.placeholder svg circle.small{animation: small-anim 1.5s linear infinite;}@keyframes big-anim{from{stroke-dashoffset: 900;}to{stroke-dashoffset: 0;}}@keyframes small-anim{from{stroke-dashoffset: 850;}to{stroke-dashoffset: 0;}}.placeholder-loader .amp-active > div{display: none;}.container{padding-right: 1rem;padding-left: 1rem;width: 100%;margin-right: auto;margin-left: auto;}@media (max-width: 767px){.container{max-width: 540px;}}@media (min-width: 768px){.container{max-width: 720px;}}@media (min-width: 992px){.container{max-width: 960px;}}@media (min-width: 1200px){.container{max-width: 1140px;}}.mbr-flex{display: flex;}.mbr-jc-c{justify-content: center;}.mbr-row{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-right: -1rem;margin-left: -1rem;}.mbr-column{flex-direction: column;}@media (max-width: 767px){.mbr-col-sm-12{-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;padding-right: 1rem;padding-left: 1rem;}}@media (min-width: 768px){.mbr-col-md-4{-ms-flex: 0 0 33.333333%;flex: 0 0 33.333333%;max-width: 33.333333%;padding-right: 1rem;padding-left: 1rem;}.mbr-col-md-6{-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;padding-right: 1rem;padding-left: 1rem;}.mbr-col-md-8{-ms-flex: 0 0 66.666667%;flex: 0 0 66.666667%;max-width: 66.666667%;padding-left: 1rem;padding-right: 1rem;}.mbr-col-md-12{-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;padding-right: 1rem;padding-left: 1rem;}}@media (min-width: 992px){.mbr-col-lg-4{-ms-flex: 0 0 33.33%;flex: 0 0 33.33%;max-width: 33.33%;padding-right: 1rem;padding-left: 1rem;}.mbr-col-lg-6{-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;padding-right: 1rem;padding-left: 1rem;}.mbr-col-lg-8{-ms-flex: 0 0 66.666667%;flex: 0 0 66.666667%;max-width: 66.666667%;padding-left: 1rem;padding-right: 1rem;}.mbr-col-lg-12{-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;padding-right: 1rem;padding-left: 1rem;}}.mbr-pt-2{padding-top: 1rem;}.mbr-pt-3{padding-top: 1.5rem;}.mbr-pt-4{padding-top: 2rem;}.mbr-pb-1{padding-bottom: .5rem;}.mbr-pb-2{padding-bottom: 1rem;}.mbr-pb-3{padding-bottom: 1.5rem;}.mbr-pb-4{padding-bottom: 2rem;}.mbr-px-1{padding-left: .5rem;padding-right: .5rem;}.mbr-px-2{padding-left: 1rem;padding-right: 1rem;}.mbr-px-4{padding-left: 2rem;padding-right: 2rem;}@media (max-width: 991px){.mbr-px-4{padding-left: 1rem;padding-right: 1rem;}}.mbr-px-5{padding-left: 3rem;padding-right: 3rem;}@media (max-width: 991px){.mbr-px-5{padding-left: 1rem;padding-right: 1rem;}}.mbr-py-1{padding-top: .5rem;padding-bottom: .5rem;}.mbr-p-4{padding: 2rem;}@media (max-width: 991px){.mbr-p-4{padding: 1rem;}}.mbr-m-auto{margin: auto;}.form-block{z-index: 1;background-color: transparent;padding: 3rem;position: relative;overflow: visible;}.form-block .mbr-overlay{z-index: -1;}@media (max-width: 992px){.form-block{padding: 1rem;}}.form-block input,.form-block textarea{border-radius: 0;background-color: #ffffff;margin: 0;transition: 0.4s;width: 100%;border: 1px solid #e0e0e0;padding: 11px 1rem;}form .fieldset{display: flex;justify-content: center;flex-wrap: wrap;align-items: center;}.field{flex-basis: auto;flex-grow: 1;flex-shrink: 1;padding: 0.5rem;}@media (max-width: 768px){.field{flex-basis: 100%;}}textarea{width: 100%;margin-right: 0;}.text-field{flex-basis: 100%;flex-grow: 1rem;flex-shrink: 1;padding: 0.5rem;}amp-img{height: 100%;width: 100%;}amp-sidebar{background: transparent;}.amp-carousel-button{outline: none;border-radius: 50%;border: 10px transparent solid;transform: scale(1.5) translateY(-50%);height: 45px;width: 45px;transition: 0.4s;cursor: pointer;}.amp-carousel-button:hover{opacity: 1;}.amp-carousel-button-next{background-position: 75% 50%;}.amp-carousel-button-prev{background-position: 25% 50%;}.iconfont-wrapper{display: inline-block;width: 1.5rem;height: 1.5rem;}.amp-iconfont{vertical-align: middle;width: 1.5rem;height: 100%;font-size: 1.5rem;}section.menu .link{justify-content: flex-start;}.title-wrap,.title{padding-bottom: 2.5rem;}@media (max-width: 767px){.title-wrap,.title{padding-bottom: 1.5rem;}}.card-box{width: 100%;}@media (min-width: 992px){.card.mbr-px-5{padding-left: 5rem;padding-right: 5rem;}}@media (max-width: 767px){.card.mbr-px-2{padding-left: 0;padding-right: 0;}}@media (max-width: 1024px){.card-box.mbr-p-4{padding: 1.5rem;}}@media (max-width: 1024px){.card .mbr-pb-4{padding-bottom: 1.5rem;}}@media (max-width: 1024px){.card .mbr-px-4{padding-left: 1.5rem;padding-right: 1.5rem;}}@media (max-width: 1024px){.card .mbr-pt-4{padding-top: 1.5rem;}}@media (max-width: 767){.card-box .mbr-pt-4{padding-top: 1rem;}}.card{height: 100%;}.card.btnVisible .card-img .card-btn{display: block;}.card.btnVisible .card-box .card-btn{display: none;}.card.btnVisible .card-img{position: relative;}.card.btnVisible .card-img .card-btn{display: none;position: absolute;left: 0;top: 0;margin: 0;width: 100%;height: 100%;pointer-events: none;}.card.btnVisible .card-img .card-btn a.btn{top: 50%;opacity: 1;z-index: 2;transform: translateY(-50%);pointer-events: all;}.card.btnVisible .card-img amp-img:before{-webkit-transition: opacity 400ms;transition: opacity 400ms;content: "";position: absolute;top: 0;bottom: 0;left: 0;right: 0;width: 100%;height: 100%;background: #000;opacity: 0;z-index: 1;pointer-events: none;}.card.btnVisible .card-wrapper:hover .card-img amp-img:before{opacity: 0.3;}.card.btnVisible .card-wrapper:hover .card-img .card-btn{display: block;}@media (max-width: 767px){.card.btnVisible .card-img amp-img:before{opacity: .3;}.card.btnVisible .card-img .card-btn{display: block;}}.box-shadow{-webkit-box-shadow: 0 2px 5px rgba(9,9,9,0.15);box-shadow: 0 2px 5px rgba(9,9,9,0.15);}body{font-family: Didact Gothic;}div[submit-success]{background: #2b3e55;}div[submit-error]{background: #b2ccd2;}.display-1{font-family: 'IBM Plex Sans',sans-serif;font-size: 3rem;line-height: 1.2;}.display-2{font-family: 'IBM Plex Sans',sans-serif;font-size: 2.25rem;line-height: 1.2;}.display-4{font-family: 'IBM Plex Sans',sans-serif;font-size: 1rem;line-height: 1.4;}.display-5{font-family: 'IBM Plex Sans',sans-serif;font-size: 1.3rem;line-height: 1.2;}.display-7{font-family: 'IBM Plex Sans',sans-serif;font-size: 1.125rem;line-height: 1.6;}.form-block input,.form-block textarea{font-family: 'IBM Plex Sans',sans-serif;font-size: 1.125rem;line-height: 1;}@media (max-width: 768px){.display-1{font-size: 2.4rem;font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));}.display-2{font-size: 1.8rem;font-size: calc( 1.4375rem + (2.25 - 1.4375) * ((100vw - 20rem) / (48 - 20)));line-height: calc( 1.4 * (1.4375rem + (2.25 - 1.4375) * ((100vw - 20rem) / (48 - 20))));}.display-4{font-size: 0.8rem;font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));}.display-5{font-size: 1.04rem;font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20)));line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20))));}.display-7{font-size: 0.9rem;font-size: calc( 1.04375rem + (1.125 - 1.04375) * ((100vw - 20rem) / (48 - 20)));line-height: calc( 1.4 * (1.04375rem + (1.125 - 1.04375) * ((100vw - 20rem) / (48 - 20))));}}.btn{padding: 10px 30px;border-radius: 0px;}.btn-success,.btn-success:active{background-color: #2b3e55;border-color: #2b3e55;color: #ffffff;}.btn-success:hover,.btn-success:focus{background-color: #344a66;border-color: #344a66;color: #ffffff;}.btn-success:disabled{color: #ffffff;background-color: #090d11;border-color: #090d11;}.btn-primary,.btn-primary:active{background-color: #8c7345;border-color: #8c7345;color: #ffffff;}.btn-primary:hover,.btn-primary:focus{background-color: #9d814d;border-color: #9d814d;color: #ffffff;}.btn-primary:disabled{color: #ffffff;background-color: #483b23;border-color: #483b23;}.text-primary{color: #8c7345;}.text-success{color: #2b3e55;}a[class*="text-"],.amp-iconfont{transition: 0.2s ease-in-out;}.amp-iconfont{color: #2b3e55;}a.text-primary:hover,a.text-primary:focus{color: #9d814d;}a.text-success:hover,a.text-success:focus{color: #344a66;}.card-title,.card-text,.mbr-text,.card-subtitle,.mbr-section-title,.mbr-section-subtitle,.copyright .mbr-text{color: #2b3e55;}section.features3 .card-subtitle,section.team1 .card-subtitle,section.header2 .mbr-section-subtitle,.fLink{color: #8c7345;}.cid-qY9wcEQhZi{background-color: #f6f6f6;overflow: visible;}.cid-qY9wcEQhZi .navbar{background: #f6f6f6;}.cid-qY9wcEQhZi .navbar-caption{line-height: inherit;}@media (max-width: 991px){.cid-qY9wcEQhZi .navbar .navbar-collapse{background: #f6f6f6;}}.cid-qY9wcEQhZi .nav-link{margin: .667em 1em;padding: 0;}.cid-qY9wcEQhZi .hamburger span{background-color: #8c7345;}.cid-qY9wcEQhZi .builder-sidebar{background-color: #f6f6f6;}.cid-qY9wcEQhZi .close-sidebar:focus{outline: 2px auto #8c7345;}.cid-qY9wcEQhZi .close-sidebar span{background-color: #8c7345;}.cid-qXXjP6KhLc{padding-top: 14rem;padding-bottom: 14rem;background-image: url("https://r.8b.io/174169/images/5fe3d7444e57b108feda846096293-h_kdfnghz8.jpg");}.cid-qXXjP6KhLc .mbr-overlay{background: #f6f6f6;opacity: 0.3;}@media (min-width: 768px){.cid-qXXjP6KhLc .title-block{margin-left: 7%;}}@media (max-width: 767px){.cid-qXXjP6KhLc .mbr-section-title{padding-bottom: 0.5rem;}}.cid-qYjWG8FRPF{padding-top: 8rem;padding-bottom: 8rem;background-image: url("https://r.8b.io/174169/images/03-h_kdfosngj.jpg");}.cid-qYjWG8FRPF .mbr-overlay{background: #ffffff;opacity: 0.5;}@media (max-width: 991px){.cid-qYjWG8FRPF .mbr-row > *{padding-left: 0;padding-right: 0;}}.cid-qYjWG8FRPF .mbr-section-title{padding-bottom: 1.25rem;}.cid-qYjWG8FRPF .mbr-section-title{color: #000000;}.cid-qYjWG8FRPF .mbr-section-subtitle{color: #000000;}.cid-qXXkxN6gVA{padding-top: 5rem;padding-bottom: 1rem;background-color: #f6f6f6;}@media (max-width: 991px){.cid-qXXkxN6gVA .card-wrapper{flex-wrap: wrap;}}.cid-qXXkxN6gVA .card-box{position: relative;}.cid-qXXkxN6gVA .card-box .card-subtitle{padding: 0;position: absolute;right: 0;top: 0;}.cid-qXXkxN6gVA .card-img .card-btn{display: none;}.cid-qXXkxN6gVA .title{padding-bottom: 3rem;}@media (min-width: 768px){.cid-qXXkxN6gVA .title{padding-bottom: 4.25rem;}}@media (min-width: 1025px){.cid-qXXkxN6gVA .title{padding-bottom: 7rem;}}.cid-qXXkxN6gVA .card.btnVisible .card-img .card-btn{height: calc(100% - 1rem);}@media (max-width: 767px){.cid-qXXkxN6gVA .card{padding-left: 0;padding-right: 0;}}.cid-qYBOtFV3d4{padding-top: 2rem;padding-bottom: 2rem;background-color: #f6f6f6;}@media (max-width: 991px){.cid-qYBOtFV3d4 .card-wrapper{flex-wrap: wrap;}}.cid-qYBOtFV3d4 .card-box{position: relative;}.cid-qYBOtFV3d4 .card-box .card-subtitle{padding: 0;position: absolute;right: 0;top: 0;}.cid-qYBOtFV3d4 .card-img .card-btn{display: none;}.cid-qYBOtFV3d4 .card.btnVisible .card-img .card-btn{height: calc(100% - 1rem);}@media (max-width: 767px){.cid-qYBOtFV3d4 .card{padding-left: 0;padding-right: 0;}}.cid-qYfw0K1Nts{padding-top: 1rem;padding-bottom: 1rem;background-color: #f6f6f6;}@media (max-width: 991px){.cid-qYfw0K1Nts .card-wrapper{flex-wrap: wrap;}}.cid-qYfw0K1Nts .card-box{position: relative;}.cid-qYfw0K1Nts .card-box .card-subtitle{padding: 0;position: absolute;right: 0;top: 0;}.cid-qYfw0K1Nts .card-img .card-btn{display: none;}.cid-qYfw0K1Nts .card.btnVisible .card-img .card-btn{height: calc(100% - 1rem);}@media (max-width: 767px){.cid-qYfw0K1Nts .card{padding-left: 0;padding-right: 0;}}.cid-qYBOrUVMH8{padding-top: 2rem;padding-bottom: 5rem;background-color: #f6f6f6;}@media (max-width: 991px){.cid-qYBOrUVMH8 .card-wrapper{flex-wrap: wrap;}}.cid-qYBOrUVMH8 .card-box{position: relative;}.cid-qYBOrUVMH8 .card-box .card-subtitle{padding: 0;position: absolute;right: 0;top: 0;}.cid-qYBOrUVMH8 .card-img .card-btn{display: none;}.cid-qYBOrUVMH8 .card.btnVisible .card-img .card-btn{height: calc(100% - 1rem);}@media (max-width: 767px){.cid-qYBOrUVMH8 .card{padding-left: 0;padding-right: 0;}}.cid-qXXmjRJtbR{padding-top: 5rem;padding-bottom: 5rem;background-color: #ececec;}.cid-qXXmjRJtbR .card-wrapper{background: #f6f6f6;padding: 1.5rem 1.5rem;}@media (max-width: 991px){.cid-qXXmjRJtbR .card-wrapper{flex-wrap: wrap;}}@media (min-width: 769px){.cid-qXXmjRJtbR .card-wrapper{padding: 2rem 2rem;}}@media (min-width: 1025px){.cid-qXXmjRJtbR .card-wrapper{padding: 2rem 3.5rem;}}.cid-qXXmjRJtbR .card-box{width: 100%;flex-direction: column-reverse;}@media (min-width: 768px){.cid-qXXmjRJtbR .card-img .iconfont-wrapper{width: 2rem;height: 2rem;}.cid-qXXmjRJtbR .card-img .amp-iconfont{width: 2rem;font-size: 2rem;}}@media (max-width: 767px){.cid-qXXmjRJtbR .card-img .iconfont-wrapper{width: 2.5rem;height: 2.5rem;}.cid-qXXmjRJtbR .card-img .amp-iconfont{width: 2.5rem;font-size: 2.5rem;}}@media (max-width: 767px){.cid-qXXmjRJtbR .card{padding-left: 0;padding-right: 0;}}.cid-qXXqjZAgMA{padding-top: 5rem;padding-bottom: 5rem;background-color: #ececec;}.cid-qXXqjZAgMA .card-wrapper{border: 1px solid #ececec;background: #f6f6f6;}@media (max-width: 991px){.cid-qXXqjZAgMA .card-wrapper{flex-wrap: wrap;}}.cid-qXXqjZAgMA .card-img .card-btn{display: none;}@media (max-width: 767px){.cid-qXXqjZAgMA .card{padding-left: 0;padding-right: 0;}}.cid-qXYj1rpXl9{padding-top: 75px;padding-bottom: 75px;background-color: #f6f6f6;}.cid-qXYj1rpXl9 .card-img{width: 100%;padding: 0;}.cid-qXYj1rpXl9 .icons-list .iconfont-wrapper{width: 2rem;height: 2rem;}.cid-qXYj1rpXl9 .icons-list span{transition: 0.2s;font-size: 2rem;width: 2rem;}.cid-qXYj1rpXl9 .title{width: 100%;padding-bottom: 2.5rem;}@media (max-width: 768px){.cid-qXYj1rpXl9 .title{padding-bottom: 1.5rem;}}.cid-qXYj1rpXl9 .card-wrapper{background: #ececec;}.cid-qXYj1rpXl9 .card-wrapper{border: 1px solid #ececec;}@media (max-width: 767px){.cid-qXYj1rpXl9 .card{padding-left: 0;padding-right: 0;}}.cid-qY9yJvWSFP{padding-top: 5rem;padding-bottom: 5rem;background-color: #ececec;}@media (max-width: 768px){.cid-qY9yJvWSFP .title-wrap{padding-bottom: 2rem;}}.cid-qY9yJvWSFP .mbr-row .mbr-overlay{opacity: 1;background-color: #f6f6f6;}.cid-qY9yJvWSFP .form-wrap .mbr-form{width: 100%;}.cid-qY9yJvWSFP .form-wrap .btn{width: 100%;margin: 0;}.cid-qY9yJvWSFP .mbr-section-btn{width: 100%;margin: 0;}.cid-qY9yJvWSFP .mbr-form .fieldset input{border: 1px solid #dddddd;color: #38516e;background-color: #ececec;padding: 0.85rem 1rem;}.cid-qY9yJvWSFP .mbr-form .fieldset input:hover{border-color: #d2d2d2;}.cid-qY9yJvWSFP .mbr-form .fieldset input:focus{border-color: #2b3e54;}.cid-qY9yJvWSFP .mbr-form .fieldset input::-webkit-input-placeholder{color: rgba(56,81,110,0.4);}.cid-qY9yJvWSFP .mbr-form .fieldset input::-moz-placeholder{color: rgba(56,81,110,0.4);}.cid-qY9yJvWSFP .mbr-row{flex-direction: column;position: relative;border: 1px solid rgba(9,9,9,0.05);width: 43.75rem;max-width: 100%;margin-right: auto;margin-left: auto;padding: 1.25rem 1.5rem;}@media (min-width: 1025px){.cid-qY9yJvWSFP .mbr-row{padding-top: 3rem;padding-bottom: 3rem;}}@media (min-width: 769px){.cid-qY9yJvWSFP .mbr-row{padding-top: 2rem;padding-bottom: 2rem;}}.cid-qY9yJvWSFP .title-wrap,.cid-qY9yJvWSFP .form-block{padding: 0;z-index: 1;}.cid-qY9yJvWSFP .fieldset{height: 100%;flex-direction: row;flex-wrap: nowrap;align-items: unset;}@media (max-width: 767px){.cid-qY9yJvWSFP .fieldset{flex-direction: column;}}.cid-qY9yJvWSFP .form-wrap .mbr-form{width: auto;}.cid-qY9yJvWSFP .title-wrap,.cid-qY9yJvWSFP .form-wrap{width: 100%;max-width: 100%;}.cid-qY9yJvWSFP .form-block{display: flex;padding-top: 1.25rem;}@media (min-width: 769px){.cid-qY9yJvWSFP .form-block{padding-top: 2rem;}}.cid-qY9yJvWSFP .form-block input{flex-shrink: 1;-webkit-flex-shrink: 1;margin: 0;height: 100%;}@media (min-width: 768px){.cid-qY9yJvWSFP .form-block input{border-right: none;}}.cid-qY9yJvWSFP .form-block .mbr-section-btn{flex-shrink: 0;-webkit-flex-shrink: 0;width: auto;margin: 0;}@media (max-width: 767px){.cid-qY9yJvWSFP .form-block .mbr-section-btn{margin-top: 10px;width: 100%;}}.cid-qY9yJvWSFP .form-block .mbr-section-btn a.btn{height: 100%;margin: 0;padding: 0.85rem 1rem;line-height: 1.2;}.cid-qYfCUVj4Gu{padding-top: 5rem;padding-bottom: 5rem;background-color: #f6f6f6;}.cid-qYfCUVj4Gu .card-wrapper{border: 1px solid #ececec;background: #ececec;padding: 1.5rem 1.5rem;}@media (max-width: 991px){.cid-qYfCUVj4Gu .card-wrapper{flex-wrap: wrap;}}@media (min-width: 1025px){.cid-qYfCUVj4Gu .card-wrapper{padding: 2rem 2rem;}}.cid-qYfCUVj4Gu .card-img .iconfont-wrapper{width: 2.5rem;height: 2.5rem;}@media (max-width: 767px){.cid-qYfCUVj4Gu .card-img .iconfont-wrapper{width: 2.5rem;height: 2.5rem;}}.cid-qYfCUVj4Gu .card-img .amp-iconfont{font-size: 2.5rem;width: 2.5rem;}@media (max-width: 767px){.cid-qYfCUVj4Gu .card-img .amp-iconfont{font-size: 2.5rem;width: 2.5rem;}}@media (max-width: 767px){.cid-qYfCUVj4Gu .card{padding-left: 0;padding-right: 0;}}.cid-qYfGpjeVZe{padding-top: 75px;padding-bottom: 75px;background-color: #ececec;}.cid-qYfGpjeVZe .mbr-form{margin: auto;}.cid-qYfGpjeVZe .mbr-form .mbr-overlay{opacity: 1;background: #f6f6f6;}@media (max-width: 992px){.cid-qYfGpjeVZe .mbr-form{width: 65%;}}@media (max-width: 768px){.cid-qYfGpjeVZe .mbr-form{width: 100%;}}.cid-qYfGpjeVZe .mbr-form .fieldset input,.cid-qYfGpjeVZe .mbr-form .fieldset textarea{border: 1px solid #ececec;background-color: #ececec;color: #2b3e55;padding: 0.875rem 1rem;width: 100%;}.cid-qYfGpjeVZe .mbr-form .fieldset input:hover,.cid-qYfGpjeVZe .mbr-form .fieldset textarea:hover{border-color: #d2d2d2;}.cid-qYfGpjeVZe .mbr-form .fieldset input:focus,.cid-qYfGpjeVZe .mbr-form .fieldset textarea:focus{border-color: #1e2b3b;}.cid-qYfGpjeVZe .mbr-form .fieldset input::-webkit-input-placeholder{color: rgba(43,62,85,0.4);}.cid-qYfGpjeVZe .mbr-form .fieldset input::-moz-placeholder{color: rgba(43,62,85,0.4);}.cid-qYfGpjeVZe .mbr-form .fieldset textarea::-webkit-input-placeholder{color: rgba(43,62,85,0.4);}.cid-qYfGpjeVZe .mbr-form .fieldset textarea::-moz-placeholder{color: rgba(43,62,85,0.4);}.cid-qYfGpjeVZe .mbr-form .fieldset textarea{min-height: 200px;}.cid-qYfGpjeVZe .form-block{border: 1px solid #ececec;padding: 1rem;}@media (min-width: 768px){.cid-qYfGpjeVZe .form-block{padding: 1.5rem;}}@media (min-width: 1025px){.cid-qYfGpjeVZe .form-block{padding: 2rem;}}@media (max-width: 767px){.cid-qYfGpjeVZe .second-element{padding-left: 0;padding-right: 0;}}.cid-qXXAggbQ8w{padding-top: 30px;padding-bottom: 30px;background-color: #f6f6f6;}@media (max-width: 992px){.cid-qXXAggbQ8w .link-items{justify-content: space-between;}}.cid-qXXAggbQ8w .link-items .fLink{width: auto;}.cid-qXXAggbQ8w .mbr-row{margin: 0;}.cid-qXXAggbQ8w .mbr-row:nth-child(1){margin-bottom: 1rem;}[class*="-iconfont"]{display: inline-flex;}</style>
+ 
+  <script async  src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  
+  
+</head>
+<body><amp-sidebar id="sidebar" class="cid-qY9wcEQhZi" layout="nodisplay" side="right">
+		<div class="builder-sidebar" id="builder-sidebar">
+			<button on="tap:sidebar.close" class="close-sidebar">
+			<span></span>
+			<span></span>
+			</button>
+		
+				
+				<!-- NAVBAR ITEMS -->
+				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <li class="nav-item">
+						<a class="nav-link mbr-regular link text-primary display-4" href="#features3-1w">Products</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link mbr-regular link text-primary display-4" href="#team1-2c">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mbr-regular link text-primary display-4" href="#features1-2r">Contacts</a>
+                    </li>
+                </ul>
+				<!-- NAVBAR ITEMS END -->
+				<!-- SOCIAL ICON -->
+				
+				<!-- SOCIAL ICON END -->
+				<!-- SHOW BUTTON -->
+				
+				<!-- SHOW BUTTON END -->
+			</div>
+	</amp-sidebar>
+  <section class="menu1 menu horizontal-menu cid-qY9wcEQhZi" id="menu1-2e">
+	
+	<!-- <div class="menu-wrapper"> -->
+	<nav class="navbar navbar-dropdown navbar-expand-lg navbar-fixed-top">
+		<div class="menu-container container">
+			<!-- SHOW LOGO -->
+			<div class="navbar-brand">
+				
+				<span class="navbar-caption-wrap"><a class="navbar-caption mbr-semibold text-success display-5" href="#top">Shop Clothing</a></span>
+			</div>
+			<!-- SHOW LOGO END -->
+			<!-- COLLAPSED MENU -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				
+				<!-- NAVBAR ITEMS -->
+				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <li class="nav-item">
+						<a class="nav-link mbr-regular link text-primary display-4" href="#features3-1w">Products</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link mbr-regular link text-primary display-4" href="#team1-2c">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mbr-regular link text-primary display-4" href="#features1-2r">Contacts</a>
+                    </li>
+                </ul>
+				<!-- NAVBAR ITEMS END -->
+				<!-- SOCIAL ICON -->
+				
+				<!-- SOCIAL ICON END -->
+				<!-- SHOW BUTTON -->
+				
+				<!-- SHOW BUTTON END -->
+			</div>
+			<!-- COLLAPSED MENU END -->
+			
+			<button on="tap:sidebar.toggle" class="ampstart-btn hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</nav>
+	<!-- AMP plug -->
+	
+	<!-- </div> -->
+</section>
+
+<section class="header1 cid-qXXjP6KhLc" id="header1-1v">
+    
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        <div class="mbr-row align-left">
+            <div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-regular mbr-pb-2 display-1">Sell your farm produce online</h1>
+                
+                <p class="mbr-text mbr-fonts-style mbr-light display-4"></p>
+                <div class="mbr-section-btn mbr-pt-3"><a class="btn-primary btn mbr-regular display-4" href="#features3-1w" style="">Shop now</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header2 cid-qYjWG8FRPF" id="header2-2u">
+    
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        <div class="mbr-row mbr-black">
+            <div class="title-wrap mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-12 align-center mbr-pb-4">
+                <div class="title-block mbr-col-sm-12 mbr-col-md-12">
+                    <h1 class="mbr-section-title mbr-fonts-style mbr-regular mbr-pb-3 display-2">Register and start selling</h1>
+                    <h2 class="mbr-section-subtitle mbr-fonts-style mbr-regular display-7">discount ends this month</h2>
+                    
+                    <div class="mbr-section-btn mbr-pt-4"><a class="btn-primary btn mbr-regular display-4">Register now</a></div>
+                </div>
+            </div>
+            <div class="image-wrap mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-12">
+                <div class="image-block mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-6 mbr-m-auto">
+                    <amp-img src="https://r.8b.io/174169/images/53e3d0455753a50bf7c5d57cc72d3-h_kdfn20td.jpg" layout="responsive" width="521.3333333333333" height="391" alt="" class="placeholder-loader">
+                        <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                        
+                    </amp-img>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features3 cid-qXXkxN6gVA" id="features3-1w">
+    
+
+    
+    <div class="container">
+        <div class="title mbr-pb-4 mbr-px-4 align-center">
+            <div class="title-block ">
+                <h3 class="mbr-section-title mbr-regular mbr-fonts-style display-2">vendors table</h3>
+                
+            </div>
+        </div>
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/55e7d7454353a514f6d1867dda793-h_kdfnrpet.jpg" layout="responsive" width="204.25531914893617" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="#header2-2u"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">pumpkins</h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7">10.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible last-child">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/blouse-h_kdfo71dh.jpg" layout="responsive" width="150.83333333333334" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="#header2-2u"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title mbr-fonts-style mbr-regular display-5">reddish</h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7"><span>$</span>33.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section class="features3 cid-qYBOtFV3d4" id="features3-2w">
+    
+
+    
+    <div class="container">
+        
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/handbag-h_kdfo1e3x.jpg" layout="responsive" width="149.9276410998553" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="header2-2u.html"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box mbr-m-auto">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">fruit basket</h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7"><span>$</span>20.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible last-child">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/business-bag-h_kdfo2fxv.jpg" layout="responsive" width="150.83333333333334" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="#header2-2u"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box mbr-m-auto">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">beet root</h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7"><span>$</span>54.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section class="features3 cid-qYfw0K1Nts" id="features3-2o">
+    
+
+    
+    <div class="container">
+        
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/shoes1-h_kdfo2onx.jpg" layout="responsive" width="150.83333333333334" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="#header2-2u"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box mbr-m-auto">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">peanuts</h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7"><span>$</span>30.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2">
+                            <a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible last-child">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/shoes2-h_kdfo2x9o.jpg" layout="responsive" width="150.83333333333334" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="#header2-2u"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box mbr-m-auto">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">vegetable covo</h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7"><span>$</span>25.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2">
+                            <a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section class="features3 cid-qYBOrUVMH8" id="features3-2x">
+    
+
+    
+    <div class="container">
+        
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/slippers-h_kdfo8m7r.jpg" layout="responsive" width="150.83333333333334" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="#header2-2u"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box mbr-m-auto">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">hazel<br><br></h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7"><span>$</span>7.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-5 btnVisible last-child">
+                <div class="card-wrapper mbr-column">
+                    <div class="card-img mbr-flex mbr-pb-2">
+                        <amp-img src="https://r.8b.io/174169/images/umbrella-h_kdfo3nbf.jpg" layout="responsive" width="150.83333333333334" height="100" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            <a href="#header2-2u"></a>
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                    <div class="card-box mbr-m-auto">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">mint</h3>
+                        <h4 class="card-subtitle mbr-py-1 mbr-fonts-style mbr-regular display-7"><span>$</span>14.00</h4>
+                        
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn mbr-regular btn-primary display-4" href="#header2-2u">Quick shop</a></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section class="features1 cid-qXXmjRJtbR" id="features1-1x">
+    
+
+    
+    <div class="container">
+        <div class="title-wrap mbr-pb-4 mbr-px-4 align-center">
+            <div class="title-block">
+                <h3 class="mbr-section-title mbr-regular mbr-fonts-style display-2">
+                    Testimonials
+                </h3>
+                
+            </div>
+        </div>
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 mbr-px-2 align-center md-pb">
+                <div class="card-wrapper mbr-flex mbr-column box-shadow">
+                    <div class="card-img align-center mbr-pb-2">
+                        <span class="iconfont-wrapper"><span class="amp-iconfont fa-facebook-f fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path></svg></span></span>
+                    </div>
+                    <div class="card-box mbr-flex">
+                        
+                        <h4 class="card-subtitle mbr-fonts-style mbr-regular display-7 mbr-pt-4">@top10fans</h4>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">
+                            Fast delivery, convenient service, amazing quality of goods, and low prices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 mbr-px-2 align-center md-pb">
+                <div class="card-wrapper mbr-flex mbr-column box-shadow">
+                    <div class="card-img align-center mbr-pb-2">
+                        <span class="iconfont-wrapper"><span class="amp-iconfont fa-twitter fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg></span></span>
+                    </div>
+                    <div class="card-box mbr-flex">
+                        
+                        <h4 class="card-subtitle mbr-fonts-style mbr-regular display-7 mbr-pt-4">@EvergreenDress</h4>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">
+                            I managed to sell 40% more through this e-platform</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 mbr-px-2 align-center last-child">
+                <div class="card-wrapper mbr-flex mbr-column box-shadow">
+                    <div class="card-img align-center mbr-pb-2">
+                        <span class="iconfont-wrapper"><span class="amp-iconfont fa-quote-left fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M832 960v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136v-704q0-104 40.5-198.5t109.5-163.5 163.5-109.5 198.5-40.5h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136zm896 0v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136v-704q0-104 40.5-198.5t109.5-163.5 163.5-109.5 198.5-40.5h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136z"></path></svg></span></span>
+                    </div>
+                    <div class="card-box mbr-flex">
+                        
+                        <h4 class="card-subtitle mbr-fonts-style mbr-regular display-7 mbr-pt-4">@Lorem</h4>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">
+                            Returns without problems, good quality of produce, and also, they have an excellent service.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="features3 cid-qXXqjZAgMA" id="features3-1z">
+    
+
+    
+    <div class="container">
+        <div class="title mbr-pb-4 mbr-px-4 align-center">
+            <div class="title-block ">
+                <h3 class="mbr-section-title mbr-fonts-style mbr-regular display-2">Our Blog</h3>
+                
+            </div>
+        </div>
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-2">
+                <div class="card-wrapper mbr-column box-shadow">
+                    <div class="card-img mbr-flex mbr-pb-4">
+                        <amp-img src="https://r.8b.io/174169/images/blog1-h_kdfo9n85.jpg" layout="responsive" width="520.5803571428571" height="345" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center">
+                            <a class="btn btn-primary mbr-regular display-4" href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card-box mbr-m-auto mbr-px-4 mbr-pb-4">
+                        <h3 class="card-title mbr-fonts-style mbr-regular display-5 mbr-pb-2">How to breed chickens</h3>
+                        
+                        <p class="card-text mbr-fonts-style mbr-light display-4">
+                            don't be afraid to take our class on breeding&nbsp;</p>
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn mbr-regular btn-success display-4" href="#">Read now</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 mbr-px-2 last-child">
+                <div class="card-wrapper mbr-column box-shadow">
+                    <div class="card-img mbr-flex mbr-pb-4">
+                        <amp-img src="https://r.8b.io/174169/images/blog2-h_kdfohoeo.jpg" layout="responsive" width="292" height="149" alt="" class="placeholder-loader">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            
+                        </amp-img>
+                        <div class="card-btn mbr-section-btn align-center">
+                            <a class="btn btn-primary mbr-regular display-4" href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card-box mbr-m-auto mbr-px-4 mbr-pb-4">
+                        <h3 class="card-title mbr-fonts-style mbr-regular display-5 mbr-pb-2">Learn about aquaponics</h3>
+                        
+                        <p class="card-text mbr-fonts-style mbr-light display-4">
+                            Our experienced aqua specialist have selected the best models from the available collections.
+                        </p>
+                        <div class="card-btn mbr-section-btn mbr-pt-2"><a class="btn btn-success mbr-regular display-4" href="#">Read now</a></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<section class="team1 cid-qXYj1rpXl9" id="team1-2c">
+    
+    
+    <!--  -->
+    <div class="container">
+            <div class="title mbr-pb-4 mbr-px-4 align-center">
+                <h3 class="mbr-section-title mbr-regular mbr-fonts-style display-2">Our Team</h3>
+                
+        </div>
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 mbr-px-2 md-pb">
+                <div class="card-wrapper box-shadow">
+                    <div class="card-img img-with-overlay mbr-pb-2">
+                        <amp-img class="placeholder-loader" src="https://r.8b.io/174169/images/team1-h_kdfq9c1i.jpg" layout="responsive" width="335" height="335" alt="">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            
+                        </amp-img>
+                    </div>
+                    <div class="card-box mbr-p-4">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">Mr Maphosa</h3>
+                        <h4 class="card-subtitle mbr-regular mbr-fonts-style display-7 mbr-pb-2">Founder</h4>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">
+                            The creator and ideological inspirer of our store.
+                        </p>
+                        <div class="icons-list mbr-pt-4">
+                            
+                            
+                            
+                            
+                        <a href="https://www.youtube.com/channel/UCIl8JHjLsqZNOdgBOYC_MRQ" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-youtube-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1047 1303v-157q0-50-29-50-17 0-33 16v224q16 16 33 16 29 0 29-49zm184-122h66v-34q0-51-33-51t-33 51v34zm-571-266v70h-80v423h-74v-423h-78v-70h232zm201 126v367h-67v-40q-39 45-76 45-33 0-42-28-6-17-6-54v-290h66v270q0 24 1 26 1 15 15 15 20 0 42-31v-280h67zm252 111v146q0 52-7 73-12 42-53 42-35 0-68-41v36h-67v-493h67v161q32-40 68-40 41 0 53 42 7 21 7 74zm251 129v9q0 29-2 43-3 22-15 40-27 40-80 40-52 0-81-38-21-27-21-86v-129q0-59 20-86 29-38 80-38t78 38q21 29 21 86v76h-133v65q0 51 34 51 24 0 30-26 0-1 .5-7t.5-16.5v-21.5h68zm-451-824v156q0 51-32 51t-32-51v-156q0-52 32-52t32 52zm533 713q0-177-19-260-10-44-43-73.5t-76-34.5q-136-15-412-15-275 0-411 15-44 5-76.5 34.5t-42.5 73.5q-20 87-20 260 0 176 20 260 10 43 42.5 73t75.5 35q137 15 412 15t412-15q43-5 75.5-35t42.5-73q20-84 20-260zm-755-651l90-296h-75l-51 195-53-195h-78q7 23 23 69l24 69q35 103 46 158v201h74v-201zm289 81v-130q0-58-21-87-29-38-78-38-51 0-78 38-21 29-21 87v130q0 58 21 87 27 38 78 38 49 0 78-38 21-27 21-87zm181 120h67v-370h-67v283q-22 31-42 31-15 0-16-16-1-2-1-26v-272h-67v293q0 37 6 55 11 27 43 27 36 0 77-45v40zm503-304v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"></path></svg></span></span>
+                            </a><a href="https://www.facebook.com/8bsite/" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-facebook-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"></path></svg></span></span>
+                            </a><a href="https://twitter.com/8bsite" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-twitter-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1408 610q-56 25-121 34 68-40 93-117-65 38-134 51-61-66-153-66-87 0-148.5 61.5t-61.5 148.5q0 29 5 48-129-7-242-65t-192-155q-29 50-29 106 0 114 91 175-47-1-100-26v2q0 75 50 133.5t123 72.5q-29 8-51 8-13 0-39-4 21 63 74.5 104t121.5 42q-116 90-261 90-26 0-50-3 148 94 322 94 112 0 210-35.5t168-95 120.5-137 75-162 24.5-168.5q0-18-1-27 63-45 105-109zm256-194v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"></path></svg></span></span>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 mbr-px-2 md-pb">
+                <div class="card-wrapper box-shadow">
+                    <div class="card-img img-with-overlay mbr-pb-2">
+                        <amp-img class="placeholder-loader" src="https://r.8b.io/174169/images/team2-h_kdfoldm0.jpg" layout="responsive" width="335.4109589041096" height="236" alt="">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            
+                        </amp-img>
+                    </div>
+                    <div class="card-box mbr-p-4">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">Ms Sharmaine</h3>
+                        <h4 class="card-subtitle mbr-regular mbr-fonts-style display-7 mbr-pb-2">Designer</h4>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">She is our designer from the very first day.
+                        </p>
+                        <div class="icons-list mbr-pt-4">
+                            
+                            
+                            
+                            
+                        <a href="https://www.youtube.com/channel/UCIl8JHjLsqZNOdgBOYC_MRQ" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-youtube-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1047 1303v-157q0-50-29-50-17 0-33 16v224q16 16 33 16 29 0 29-49zm184-122h66v-34q0-51-33-51t-33 51v34zm-571-266v70h-80v423h-74v-423h-78v-70h232zm201 126v367h-67v-40q-39 45-76 45-33 0-42-28-6-17-6-54v-290h66v270q0 24 1 26 1 15 15 15 20 0 42-31v-280h67zm252 111v146q0 52-7 73-12 42-53 42-35 0-68-41v36h-67v-493h67v161q32-40 68-40 41 0 53 42 7 21 7 74zm251 129v9q0 29-2 43-3 22-15 40-27 40-80 40-52 0-81-38-21-27-21-86v-129q0-59 20-86 29-38 80-38t78 38q21 29 21 86v76h-133v65q0 51 34 51 24 0 30-26 0-1 .5-7t.5-16.5v-21.5h68zm-451-824v156q0 51-32 51t-32-51v-156q0-52 32-52t32 52zm533 713q0-177-19-260-10-44-43-73.5t-76-34.5q-136-15-412-15-275 0-411 15-44 5-76.5 34.5t-42.5 73.5q-20 87-20 260 0 176 20 260 10 43 42.5 73t75.5 35q137 15 412 15t412-15q43-5 75.5-35t42.5-73q20-84 20-260zm-755-651l90-296h-75l-51 195-53-195h-78q7 23 23 69l24 69q35 103 46 158v201h74v-201zm289 81v-130q0-58-21-87-29-38-78-38-51 0-78 38-21 29-21 87v130q0 58 21 87 27 38 78 38 49 0 78-38 21-27 21-87zm181 120h67v-370h-67v283q-22 31-42 31-15 0-16-16-1-2-1-26v-272h-67v293q0 37 6 55 11 27 43 27 36 0 77-45v40zm503-304v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"></path></svg></span></span>
+                            </a><a href="https://www.facebook.com/8bsite/" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-facebook-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"></path></svg></span></span>
+                            </a><a href="https://twitter.com/8bsite" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-twitter-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1408 610q-56 25-121 34 68-40 93-117-65 38-134 51-61-66-153-66-87 0-148.5 61.5t-61.5 148.5q0 29 5 48-129-7-242-65t-192-155q-29 50-29 106 0 114 91 175-47-1-100-26v2q0 75 50 133.5t123 72.5q-29 8-51 8-13 0-39-4 21 63 74.5 104t121.5 42q-116 90-261 90-26 0-50-3 148 94 322 94 112 0 210-35.5t168-95 120.5-137 75-162 24.5-168.5q0-18-1-27 63-45 105-109zm256-194v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"></path></svg></span></span>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 mbr-px-2 last-child">
+                <div class="card-wrapper box-shadow">
+                    <div class="card-img img-with-overlay mbr-pb-2">
+                        <amp-img class="placeholder-loader" src="https://r.8b.io/174169/images/team3-h_kdfp33yz.jpg" layout="responsive" width="335" height="335" alt="">
+                            <div placeholder="" class="placeholder">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                </svg></div>
+                            
+                        </amp-img>
+                    </div>
+                    <div class="card-box mbr-p-4">
+                        <h3 class="card-title mbr-regular mbr-fonts-style display-5">Zimbabwe flutter devs</h3>
+                        <h4 class="card-subtitle mbr-regular mbr-fonts-style display-7 mbr-pb-2">Designers</h4>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">
+                            specialist in web and app designs</p>
+                        <div class="icons-list mbr-pt-4">
+                            
+                            
+                            
+                            
+                        <a href="https://www.youtube.com/channel/UCIl8JHjLsqZNOdgBOYC_MRQ" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-youtube-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1047 1303v-157q0-50-29-50-17 0-33 16v224q16 16 33 16 29 0 29-49zm184-122h66v-34q0-51-33-51t-33 51v34zm-571-266v70h-80v423h-74v-423h-78v-70h232zm201 126v367h-67v-40q-39 45-76 45-33 0-42-28-6-17-6-54v-290h66v270q0 24 1 26 1 15 15 15 20 0 42-31v-280h67zm252 111v146q0 52-7 73-12 42-53 42-35 0-68-41v36h-67v-493h67v161q32-40 68-40 41 0 53 42 7 21 7 74zm251 129v9q0 29-2 43-3 22-15 40-27 40-80 40-52 0-81-38-21-27-21-86v-129q0-59 20-86 29-38 80-38t78 38q21 29 21 86v76h-133v65q0 51 34 51 24 0 30-26 0-1 .5-7t.5-16.5v-21.5h68zm-451-824v156q0 51-32 51t-32-51v-156q0-52 32-52t32 52zm533 713q0-177-19-260-10-44-43-73.5t-76-34.5q-136-15-412-15-275 0-411 15-44 5-76.5 34.5t-42.5 73.5q-20 87-20 260 0 176 20 260 10 43 42.5 73t75.5 35q137 15 412 15t412-15q43-5 75.5-35t42.5-73q20-84 20-260zm-755-651l90-296h-75l-51 195-53-195h-78q7 23 23 69l24 69q35 103 46 158v201h74v-201zm289 81v-130q0-58-21-87-29-38-78-38-51 0-78 38-21 29-21 87v130q0 58 21 87 27 38 78 38 49 0 78-38 21-27 21-87zm181 120h67v-370h-67v283q-22 31-42 31-15 0-16-16-1-2-1-26v-272h-67v293q0 37 6 55 11 27 43 27 36 0 77-45v40zm503-304v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"></path></svg></span></span>
+                            </a><a href="https://www.facebook.com/8bsite/" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-facebook-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"></path></svg></span></span>
+                            </a><a href="https://twitter.com/8bsite" target="_blank">
+                                <span class="iconfont-wrapper"><span class="amp-iconfont animation-normal fa-twitter-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1408 610q-56 25-121 34 68-40 93-117-65 38-134 51-61-66-153-66-87 0-148.5 61.5t-61.5 148.5q0 29 5 48-129-7-242-65t-192-155q-29 50-29 106 0 114 91 175-47-1-100-26v2q0 75 50 133.5t123 72.5q-29 8-51 8-13 0-39-4 21 63 74.5 104t121.5 42q-116 90-261 90-26 0-50-3 148 94 322 94 112 0 210-35.5t168-95 120.5-137 75-162 24.5-168.5q0-18-1-27 63-45 105-109zm256-194v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"></path></svg></span></span>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            
+            <!--  -->
+        </div>
+    </div>
+</section>
+
+<section class="info2 cid-qY9yJvWSFP" id="info2-2f">
+    
+    <!--Block parameters controls (Blue "Gear" panel) -->
+    
+    <div class="container mbr-px-2">
+        <div class="mbr-row mbr-jc-c mbr-px-2 box-shadow">
+            <div class="mbr-overlay"></div>
+            <div class="title-wrap mbr-col-lg-8 mbr-col-md-8 mbr-col-sm-12 mbr-pb-4 mbr-flex mbr-column mbr-jc-c mbr-px-4 align-center">
+                <h3 class="mbr-section-title mbr-fonts-style mbr-regular display-2 mbr-pb-3">
+                    Newsletter
+                </h3>
+                <p class="mbr-text mbr-fonts-style mbr-light display-4">
+                    Subscribe now and get 10% off your first purchase
+                </p>
+            </div>
+            <div class="form-wrap mbr-col-lg-4 mbr-col-md-4 mbr-col-sm-12 mbr-flex mbr-column mbr-jc-c mbr-px-4" data-form-type="formoid">
+                <div class="form-block" data-form-type="formoid">
+                    <form class="mbr-form mbr-jc-c mbr-flex mbr-m-auto mbr-column" method="post" target="_top" action-xhr="https://f.8b.com/api/sites/174169/forms/data/" data-form-title="8b Form">
+                        <div submit-success="">
+                            <template data-form-alert="" type="amp-mustache">Subscription successful!</template>
+                        </div>
+                        <div submit-error="">
+                            <template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
+                        </div>
+                        <div class="fieldset mbr-fonts-style display-4">
+                            <input type="email" name="form[data][0][1]" data-form-field="E-mail" placeholder="E-mail Address" required="" id="form[data][0][1]-info2-2f">
+                            <div class="mbr-section-btn align-center"><a class="btn mbr-regular btn-form btn-success display-4">Sign Up</a></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features1 cid-qYfCUVj4Gu" id="features1-2r">
+    
+    
+    <div class="container">
+        <div class="title mbr-pb-4 mbr-px-4 align-center">
+            <div class="title-block">
+                <h3 class="mbr-section-title mbr-regular mbr-fonts-style display-2">Come Visit Us</h3>
+                
+            </div>
+        </div>
+        <div class="mbr-row mbr-px-2 mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4 mbr-px-2 md-pb">
+                <div class="card-wrapper mbr-flex mbr-column box-shadow">
+                    <div class="card-img mbr-pb-2">
+                        <span class="iconfont-wrapper"><span class="amp-iconfont fa-map-marker fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 774q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-774q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z"></path></svg></span></span>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title mbr-pb-1 mbr-regular mbr-fonts-style display-5">
+                            Address
+                        </h3>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">A8, Bulawayo, Zimbabwe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4 mbr-px-2 md-pb">
+                <div class="card-wrapper mbr-flex mbr-column box-shadow">
+                    <div class="card-img mbr-pb-2">
+                        <span class="iconfont-wrapper"><span class="amp-iconfont fa-phone fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z"></path></svg></span></span>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title mbr-pb-1 mbr-regular mbr-fonts-style display-5">
+                            Phone
+                        </h3>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">+263-000-000-0000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4 mbr-px-2 last-child">
+                <div class="card-wrapper mbr-flex mbr-column box-shadow">
+                    <div class="card-img mbr-pb-2">
+                        <span class="iconfont-wrapper"><span class="amp-iconfont fa-envelope fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"></path></svg></span></span>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title mbr-pb-1 mbr-regular mbr-fonts-style display-5">
+                            E-mail
+                        </h3>
+                        <p class="card-text mbr-fonts-style mbr-light display-4">1ngoni.maphosa@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="contacts2 cid-qYfGpjeVZe" id="contacts2-2t">
+	
+	<!-- Block parameters controls (Blue "Gear" panel) -->
+	
+	<div class="container">
+		<div class="title mbr-pb-4 mbr-px-4 align-center">
+			<h3 class="mbr-section-title mbr-regular mbr-fonts-style display-2">
+			Contact</h3>
+			
+		</div>
+		<div class="mbr-row main-row mbr-jc-c mbr-px-2">
+			
+			<div class="second-element mbr-col-md-12 mbr-col-sm-12 mbr-column mbr-flex mbr-jc-c mbr-px-4 mbr-col-lg-6 mbr-m-auto" data-form-type="formoid">
+				<div class="form-block box-shadow" data-form-type="formoid">
+					<form class="mbr-form mbr-jc-c mbr-flex mbr-column display-7" method="post" target="_top" action-xhr="https://f.8b.com/api/sites/174169/forms/data/" data-form-title="8b Form">
+						<div class="mbr-overlay"></div>
+						<div submit-success="">
+							<template data-form-alert="" type="amp-mustache">Subscription successful!</template>
+						</div>
+						<div submit-error="">
+							<template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
+						</div>
+						<div class="fieldset mbr-fonts-style display-4">
+							<div class="field" data-for="form[data][0][1]">
+								<input type="hidden" name="form[data][0][0]" value="Name" id="form[data][0][0]-contacts2-2t" data-form-field="">
+								<input type="text" name="form[data][0][1]" data-form-field="First Name" placeholder="Name" required="" id="form[data][0][1]-contacts2-2t">
+							</div>
+							
+							<div class="field" data-for="form[data][2][1]">
+								<input type="hidden" name="form[data][1][0]" value="E-mail" id="form[data][2][0]-contacts2-2t" data-form-field="">
+								<input type="email" name="form[data][1][1]" data-form-field="E-mail" placeholder="E-mail" required="" id="form[data][2][1]-contacts2-2t">
+							</div>
+							
+							<div class="text-field" data-for="form[data][4][1]">
+								<input type="hidden" name="form[data][2][0]" value="Message" id="form[data][4][0]-contacts2-2t" data-form-field="">
+								<textarea name="form[data][2][1]" rows="7" data-form-field="Message" placeholder="Message" id="form[data][4][1]-contacts2-2t"></textarea>
+							</div>
+						</div>
+						<div class="mbr-section-btn align-center"><button type="submit" class="btn mbr-regular btn-form btn-primary display-4">Send</button></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="footer1 cid-qXXAggbQ8w" id="footer1-24">
+    
+    
+    <div class="footer-container container">
+        <div class="mbr-row link-items mbr-jc-c mbr-fonts-style mbr-light display-4">
+            
+            
+            
+            
+            
+        <p class="mbr-text fLink mbr-px-1 mbr-white"><a href="#features3-1w" class="text-primary">Products</a></p><p class="mbr-text fLink mbr-px-1 mbr-white"><a href="#team1-2c" class="text-primary">
+                About</a></p><p class="mbr-text fLink mbr-px-1 mbr-white"><a href="#features1-2r" class="text-primary">Contacts</a></p></div>
+        <div class="copyright mbr-px-2 mbr-flex mbr-jc-c">
+            <p class="mbr-text mbr-fonts-style align-center mbr-light display-4">
+                © <span>2020</span> <span>vendors hub</span></p>
+        </div>
+    </div>
+</section>
+
+
+  
+  
+</body>
 </html>
