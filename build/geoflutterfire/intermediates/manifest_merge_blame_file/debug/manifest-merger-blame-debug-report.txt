@@ -3,6 +3,6 @@
 3    package="com.noeatsleepdev.geoflutterfire" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/maphosa/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/geoflutterfire-2.1.0/android/src/main/AndroidManifest.xml
+5-->C:\src\flutter-1.22.4\flutter\.pub-cache\hosted\pub.dartlang.org\geoflutterfire-2.1.0\android\src\main\AndroidManifest.xml
 6
 7</manifest>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/maphosa/Downloads/solo2/build/url_launcher/intermediates/res/merged/debug/values-ta/values-ta.xml",
+            "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\solo\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
-                    "source": "/Users/maphosa/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/values-ta/values-ta.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\3aaf6e5219b7f981ec263df919098c6f\\core-1.1.0\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/maphosa/Downloads/solo2/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\solo\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-ta\\values-ta.xml",
             "map": [
                 {
-                    "source": "/Users/maphosa/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/values-ta/values-ta.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\3aaf6e5219b7f981ec263df919098c6f\\core-1.1.0\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

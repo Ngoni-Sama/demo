@@ -3,6 +3,6 @@
 3    package="com.dexterous.flutterlocalnotifications" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/maphosa/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-2.0.2/android/src/main/AndroidManifest.xml
+5-->C:\src\flutter-1.22.4\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_local_notifications-2.0.2\android\src\main\AndroidManifest.xml
 6
 7</manifest>

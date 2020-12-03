@@ -1083,7 +1083,7 @@ class _PropertySellState extends State<PropertySell> {
       }
       StorageReference firebaseStorageRef = FirebaseStorage.instance
           .ref()
-          .child("assets/images/sell.png/${DateTime.now().toIso8601String()}");
+          .child("images/sell/${DateTime.now().toIso8601String()}");
 
       StorageUploadTask uploadTask =
           firebaseStorageRef.putFile(File(imageFiles[i]));

@@ -168,8 +168,33 @@ class _StepperBodyState extends State<StepperBody> {
           SizedBox(
             height: 8.0,
           ),
-
-
+          new TextFormField(
+            keyboardType: TextInputType.number,
+            style: simpleTextStyle(),
+            decoration: textFieldInputDecoration("Years of experience"),
+            onSaved: (value) {
+              data.experience = value;
+            },
+          ),
+          SizedBox(
+            height: 8.0,
+          ),
+          new TextFormField(
+            textInputAction: TextInputAction.newline,
+            keyboardType: TextInputType.multiline,
+            maxLines: 3,
+            maxLength: 250,
+            style: simpleTextStyle(),
+            decoration: textFieldInputDecoration("Work History"),
+            validator: (value) {
+              if (value.isEmpty) {
+                return 'field can not be empty';
+              }
+            },
+            onSaved: (String value) {
+              data.history = value;
+            },
+          ),
         ],
       ),
     ),

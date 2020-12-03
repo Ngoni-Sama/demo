@@ -2,8 +2,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 import 'package:solo_property_app/property/my_listings.dart';
 import 'package:solo_property_app/property/posting_options.dart';
+
 import '../utils/solo_theme.dart';
 
 class UserProfile extends StatefulWidget {
@@ -120,7 +122,7 @@ class _UserProfileState extends State<UserProfile> {
                                 myListing['sellType'] == 6)
                             ? Center(
                                 child: Text(
-                                  " House for sale",
+                                  " House for saale",
                                   style: simpleTextStyle(),
                                 ),
                               )
@@ -205,8 +207,8 @@ class _UserProfileState extends State<UserProfile> {
                           child: Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.only(
-                                topLeft: Radius.circular(15.0),
-                                topRight: Radius.circular(15.0),
+                                topLeft: Radius.circular(45.0),
+                                topRight: Radius.circular(45.0),
                               ),
                               color: Colors.white,
                             ),
