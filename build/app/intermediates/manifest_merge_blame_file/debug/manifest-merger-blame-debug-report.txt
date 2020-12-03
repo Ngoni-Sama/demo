@@ -5,76 +5,76 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-7-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:49:5-74
+7-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:49:5-74
 8        android:minSdkVersion="21"
-8-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:49:15-41
+8-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:49:15-41
 9        android:targetSdkVersion="29" />
-9-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:49:42-71
+9-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:49:42-71
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->/Users/maphosa/Downloads/solo2/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/maphosa/Downloads/solo2/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
-15-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+15-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
-16-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+16-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->[:geolocator] C:\Users\HP\AndroidStudioProjects\solo\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-17-->[:geolocator] C:\Users\HP\AndroidStudioProjects\solo\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+17-->[:geolocator] /Users/maphosa/Downloads/solo2/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+17-->[:geolocator] /Users/maphosa/Downloads/solo2/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[:firebase_analytics] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-18-->[:firebase_analytics] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+18-->[:firebase_analytics] /Users/maphosa/Downloads/solo2/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+18-->[:firebase_analytics] /Users/maphosa/Downloads/solo2/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 19    <uses-permission android:name="android.permission.WAKE_LOCK" />
-19-->[:firebase_analytics] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
-19-->[:firebase_analytics] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+19-->[:firebase_analytics] /Users/maphosa/Downloads/solo2/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+19-->[:firebase_analytics] /Users/maphosa/Downloads/solo2/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
 20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-20-->[:connectivity] C:\Users\HP\AndroidStudioProjects\solo\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
-20-->[:connectivity] C:\Users\HP\AndroidStudioProjects\solo\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+20-->[:connectivity] /Users/maphosa/Downloads/solo2/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-76
+20-->[:connectivity] /Users/maphosa/Downloads/solo2/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-73
 21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-21-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
-21-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+21-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
 22    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-22-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:5:5-84
-22-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:5:22-82
+22-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:5:5-84
+22-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:5:22-82
 23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-23-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:6:5-80
-23-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:6:22-78
+23-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:6:5-80
+23-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:6:22-78
 24    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-24-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:7:5-78
-24-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:7:22-76
+24-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:7:5-78
+24-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:7:22-76
 25    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-25-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:9:5-88
-25-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:9:22-86
+25-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:9:5-88
+25-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:9:22-86
 26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-26-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:11:5-76
-26-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:11:22-74
+26-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:11:5-76
+26-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:11:22-74
 27    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
-27-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:12:5-93
-27-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:12:22-91
+27-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:12:5-93
+27-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:12:22-91
 28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-28-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:13:5-80
-28-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:13:22-78
+28-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:13:5-80
+28-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:13:22-78
 29    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- device-specific permissions for DeviceSettings methods -->
-29-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:14:5-67
-29-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:14:22-65
+29-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:14:5-67
+29-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:14:22-65
 30    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
-30-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:16:5-74
-30-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:16:22-72
+30-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:16:5-74
+30-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:16:22-72
 31    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
-31-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:17:5-96
-31-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:17:22-94
+31-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:17:5-96
+31-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:17:22-94
 32
 33    <uses-feature
-33-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:18:5-90
+33-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:18:5-90
 34        android:name="android.hardware.location.gps"
-34-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:18:19-63
+34-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:18:19-63
 35        android:required="false" />
-35-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:18:64-88
+35-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:18:64-88
 36    <!--
 37 io.flutter.app.FlutterApplication is an android.app.Application that
 38         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -83,30 +83,30 @@
 41         FlutterApplication and put your custom class here.
 42    -->
 43    <application
-43-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:9:5-48:19
+43-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:9:5-48:19
 44        android:name="io.flutter.app.FlutterApplication"
-44-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:11:9-57
+44-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:11:9-57
 45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-45-->[androidx.core:core:1.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f2e0eaaff67bde345351d7ed79a43d9e\core-1.3.0\AndroidManifest.xml:24:18-86
+45-->[androidx.core:core:1.3.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/f2e0eaaff67bde345351d7ed79a43d9e/core-1.3.0/AndroidManifest.xml:24:18-86
 46        android:debuggable="true"
 47        android:icon="@mipmap/ic_launcher"
-47-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:13:9-43
+47-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:13:9-43
 48        android:label="solo_app" >
-48-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:12:9-33
+48-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:12:9-33
 49        <activity
-49-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:14:9-42:20
+49-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:14:9-42:20
 50            android:name="com.example.solo_app.MainActivity"
-50-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:15:13-41
+50-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:15:13-41
 51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-51-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:18:13-163
+51-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:18:13-163
 52            android:hardwareAccelerated="true"
-52-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:19:13-47
+52-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:19:13-47
 53            android:launchMode="singleTop"
-53-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:16:13-43
+53-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:16:13-43
 54            android:theme="@style/LaunchTheme"
-54-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:17:13-47
+54-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:17:13-47
 55            android:windowSoftInputMode="adjustResize" >
-55-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:20:13-55
+55-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:20:13-55
 56
 57            <!--
 58                 Specifies an Android theme to apply to this Activity as soon as
@@ -115,11 +115,11 @@
 61                 to determine the Window background behind the Flutter UI.
 62            -->
 63            <meta-data
-63-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:25:13-28:17
+63-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:25:13-28:17
 64                android:name="io.flutter.embedding.android.NormalTheme"
-64-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:26:15-70
+64-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:26:15-70
 65                android:resource="@style/NormalTheme" />
-65-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:27:15-52
+65-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:27:15-52
 66            <!--
 67                 Displays an Android View that continues showing the launch screen
 68                 Drawable until Flutter paints its first frame, then this splash
@@ -128,21 +128,21 @@
 71                 Flutter's first frame.
 72            -->
 73            <meta-data
-73-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:34:13-37:17
+73-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:34:13-37:17
 74                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-74-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:35:15-79
+74-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:35:15-79
 75                android:resource="@drawable/launch_background" />
-75-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:36:15-61
+75-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:36:15-61
 76
 77            <intent-filter>
-77-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:38:13-41:29
+77-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:38:13-41:29
 78                <action android:name="android.intent.action.MAIN" />
-78-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:39:17-68
-78-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:39:25-66
+78-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:39:17-68
+78-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:39:25-66
 79
 80                <category android:name="android.intent.category.LAUNCHER" />
-80-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:40:17-76
-80-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:40:27-74
+80-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:40:17-76
+80-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:40:27-74
 81            </intent-filter>
 82        </activity>
 83        <!--
@@ -150,384 +150,384 @@
 85             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 86        -->
 87        <meta-data
-87-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:45:9-47:33
+87-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:45:9-47:33
 88            android:name="flutterEmbedding"
-88-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:46:13-44
+88-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:46:13-44
 89            android:value="2" />
-89-->C:\Users\HP\AndroidStudioProjects\solo\android\app\src\main\AndroidManifest.xml:47:13-30
+89-->/Users/maphosa/Downloads/solo2/android/app/src/main/AndroidManifest.xml:47:13-30
 90
 91        <provider
-91-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+91-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
 92            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-92-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+92-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
 93            android:authorities="zw.co.soloapp.flutter.image_provider"
-93-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+93-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
 94            android:exported="false"
-94-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+94-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
 95            android:grantUriPermissions="true" >
-95-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+95-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
 96            <meta-data
-96-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+96-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 97                android:name="android.support.FILE_PROVIDER_PATHS"
-97-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+97-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 98                android:resource="@xml/flutter_image_picker_file_paths" />
-98-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+98-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 99        </provider>
 100
 101        <service
-101-->[:cloud_firestore] C:\Users\HP\AndroidStudioProjects\solo\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+101-->[:cloud_firestore] /Users/maphosa/Downloads/solo2/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 102            android:name="com.google.firebase.components.ComponentDiscoveryService"
-102-->[:cloud_firestore] C:\Users\HP\AndroidStudioProjects\solo\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+102-->[:cloud_firestore] /Users/maphosa/Downloads/solo2/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 103            android:directBootAware="true"
-103-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\581d239a5581b50e21c4860ca5a0e085\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+103-->[com.google.firebase:firebase-common:19.4.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/8acc57434b27af354516831ee973e85d/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
 104            android:exported="false" >
-104-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ee7647e5faaa1e8f599766e4c98c6798\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:19:13-37
+104-->[com.google.firebase:firebase-firestore:22.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/89fb9075d5cc03c6335007c2129b8a99/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:19:13-37
 105            <meta-data
-105-->[:cloud_firestore] C:\Users\HP\AndroidStudioProjects\solo\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+105-->[:cloud_firestore] /Users/maphosa/Downloads/solo2/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
-106-->[:cloud_firestore] C:\Users\HP\AndroidStudioProjects\solo\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+106-->[:cloud_firestore] /Users/maphosa/Downloads/solo2/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
 107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[:cloud_firestore] C:\Users\HP\AndroidStudioProjects\solo\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+107-->[:cloud_firestore] /Users/maphosa/Downloads/solo2/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 108            <meta-data
-108-->[:firebase_auth] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+108-->[:firebase_auth] /Users/maphosa/Downloads/solo2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 109                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
-109-->[:firebase_auth] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+109-->[:firebase_auth] /Users/maphosa/Downloads/solo2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
 110                android:value="com.google.firebase.components.ComponentRegistrar" />
-110-->[:firebase_auth] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+110-->[:firebase_auth] /Users/maphosa/Downloads/solo2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 111            <meta-data
-111-->[:firebase_database] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+111-->[:firebase_database] /Users/maphosa/Downloads/solo2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-112-->[:firebase_database] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+112-->[:firebase_database] /Users/maphosa/Downloads/solo2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 113                android:value="com.google.firebase.components.ComponentRegistrar" />
-113-->[:firebase_database] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+113-->[:firebase_database] /Users/maphosa/Downloads/solo2/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 114            <meta-data
-114-->[:firebase_storage] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+114-->[:firebase_storage] /Users/maphosa/Downloads/solo2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 115                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-115-->[:firebase_storage] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+115-->[:firebase_storage] /Users/maphosa/Downloads/solo2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
 116                android:value="com.google.firebase.components.ComponentRegistrar" />
-116-->[:firebase_storage] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+116-->[:firebase_storage] /Users/maphosa/Downloads/solo2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 117            <meta-data
-117-->[:firebase_core] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+117-->[:firebase_core] /Users/maphosa/Downloads/solo2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 118                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
-118-->[:firebase_core] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+118-->[:firebase_core] /Users/maphosa/Downloads/solo2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 119                android:value="com.google.firebase.components.ComponentRegistrar" />
-119-->[:firebase_core] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+119-->[:firebase_core] /Users/maphosa/Downloads/solo2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 120            <meta-data
-120-->[:firebase_analytics] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+120-->[:firebase_analytics] /Users/maphosa/Downloads/solo2/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
 121                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
-121-->[:firebase_analytics] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-127
+121-->[:firebase_analytics] /Users/maphosa/Downloads/solo2/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
 122                android:value="com.google.firebase.components.ComponentRegistrar" />
-122-->[:firebase_analytics] C:\Users\HP\AndroidStudioProjects\solo\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+122-->[:firebase_analytics] /Users/maphosa/Downloads/solo2/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
 123            <meta-data
-123-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ee7647e5faaa1e8f599766e4c98c6798\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:20:13-22:85
+123-->[com.google.firebase:firebase-firestore:22.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/89fb9075d5cc03c6335007c2129b8a99/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:20:13-22:85
 124                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-124-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ee7647e5faaa1e8f599766e4c98c6798\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:21:17-111
+124-->[com.google.firebase:firebase-firestore:22.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/89fb9075d5cc03c6335007c2129b8a99/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:21:17-111
 125                android:value="com.google.firebase.components.ComponentRegistrar" />
-125-->[com.google.firebase:firebase-firestore:22.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ee7647e5faaa1e8f599766e4c98c6798\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:22:17-82
+125-->[com.google.firebase:firebase-firestore:22.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/89fb9075d5cc03c6335007c2129b8a99/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:22:17-82
 126            <meta-data
-126-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
+126-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
 127                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-127-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:78:17-109
+127-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
 128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:79:17-82
+128-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
 129            <meta-data
-129-->[com.google.firebase:firebase-database:19.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\afbf9b293ef26574ae76a7120a32a124\firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+129-->[com.google.firebase:firebase-database:19.5.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/afbf9b293ef26574ae76a7120a32a124/firebase-database-19.5.1/AndroidManifest.xml:32:13-34:85
 130                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-130-->[com.google.firebase:firebase-database:19.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\afbf9b293ef26574ae76a7120a32a124\firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+130-->[com.google.firebase:firebase-database:19.5.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/afbf9b293ef26574ae76a7120a32a124/firebase-database-19.5.1/AndroidManifest.xml:33:17-109
 131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.firebase:firebase-database:19.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\afbf9b293ef26574ae76a7120a32a124\firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+131-->[com.google.firebase:firebase-database:19.5.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/afbf9b293ef26574ae76a7120a32a124/firebase-database-19.5.1/AndroidManifest.xml:34:17-82
 132            <meta-data
-132-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8fbad351f264cc56571cca0020ccb06\firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+132-->[com.google.firebase:firebase-storage:19.2.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/d8fbad351f264cc56571cca0020ccb06/firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
 133                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-133-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8fbad351f264cc56571cca0020ccb06\firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+133-->[com.google.firebase:firebase-storage:19.2.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/d8fbad351f264cc56571cca0020ccb06/firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
 134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d8fbad351f264cc56571cca0020ccb06\firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+134-->[com.google.firebase:firebase-storage:19.2.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/d8fbad351f264cc56571cca0020ccb06/firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
 135            <meta-data
-135-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3854019eb3e8f5f696a3136a2ee81883\play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+135-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/3854019eb3e8f5f696a3136a2ee81883/play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
 136                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-136-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3854019eb3e8f5f696a3136a2ee81883\play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+136-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/3854019eb3e8f5f696a3136a2ee81883/play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
 137                android:value="com.google.firebase.components.ComponentRegistrar" />
-137-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3854019eb3e8f5f696a3136a2ee81883\play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+137-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/3854019eb3e8f5f696a3136a2ee81883/play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
 138            <meta-data
-138-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ae579373d69d2f72ff35f0a4a5bdd7c7\firebase-installations-16.3.4\AndroidManifest.xml:18:13-20:85
+138-->[com.google.firebase:firebase-installations:16.3.4] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/ae579373d69d2f72ff35f0a4a5bdd7c7/firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
 139                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-139-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ae579373d69d2f72ff35f0a4a5bdd7c7\firebase-installations-16.3.4\AndroidManifest.xml:19:17-127
+139-->[com.google.firebase:firebase-installations:16.3.4] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/ae579373d69d2f72ff35f0a4a5bdd7c7/firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
 140                android:value="com.google.firebase.components.ComponentRegistrar" />
-140-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ae579373d69d2f72ff35f0a4a5bdd7c7\firebase-installations-16.3.4\AndroidManifest.xml:20:17-82
+140-->[com.google.firebase:firebase-installations:16.3.4] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/ae579373d69d2f72ff35f0a4a5bdd7c7/firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
 141        </service>
 142
 143        <activity
-143-->[:url_launcher] C:\Users\HP\AndroidStudioProjects\solo\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+143-->[:url_launcher] /Users/maphosa/Downloads/solo2/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
 144            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-144-->[:url_launcher] C:\Users\HP\AndroidStudioProjects\solo\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+144-->[:url_launcher] /Users/maphosa/Downloads/solo2/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 145            android:exported="false"
-145-->[:url_launcher] C:\Users\HP\AndroidStudioProjects\solo\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+145-->[:url_launcher] /Users/maphosa/Downloads/solo2/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
 146            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-146-->[:url_launcher] C:\Users\HP\AndroidStudioProjects\solo\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+146-->[:url_launcher] /Users/maphosa/Downloads/solo2/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
 147        <activity
-147-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
+147-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
 148            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-148-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:28:13-80
+148-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
 149            android:excludeFromRecents="true"
-149-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:29:13-46
+149-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
 150            android:exported="true"
-150-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:30:13-36
+150-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
 151            android:launchMode="singleTask"
-151-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:31:13-44
+151-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
 152            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-152-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:32:13-72
+152-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
 153            <intent-filter>
-153-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:33:13-43:29
+153-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
 154                <action android:name="android.intent.action.VIEW" />
-154-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:17-69
-154-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:25-66
+154-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+154-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
 155
 156                <category android:name="android.intent.category.DEFAULT" />
-156-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:17-76
-156-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:27-73
+156-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+156-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
 157                <category android:name="android.intent.category.BROWSABLE" />
-157-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:17-78
-157-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:27-75
+157-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+157-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
 158
 159                <data
-159-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:39:17-42:51
+159-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
 160                    android:host="firebase.auth"
-160-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:40:21-49
+160-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
 161                    android:path="/"
-161-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:41:21-37
+161-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
 162                    android:scheme="genericidp" />
-162-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:42:21-48
+162-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
 163            </intent-filter>
 164        </activity>
 165        <activity
-165-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:45:9-62:20
+165-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
 166            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-166-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:46:13-79
+166-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
 167            android:excludeFromRecents="true"
-167-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:47:13-46
+167-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
 168            android:exported="true"
-168-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:48:13-36
+168-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
 169            android:launchMode="singleTask"
-169-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:49:13-44
+169-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
 170            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-170-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:50:13-72
+170-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
 171            <intent-filter>
-171-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:51:13-61:29
+171-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
 172                <action android:name="android.intent.action.VIEW" />
-172-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:17-69
-172-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:25-66
+172-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+172-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
 173
 174                <category android:name="android.intent.category.DEFAULT" />
-174-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:17-76
-174-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:27-73
+174-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+174-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
 175                <category android:name="android.intent.category.BROWSABLE" />
-175-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:17-78
-175-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:27-75
+175-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+175-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
 176
 177                <data
-177-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:39:17-42:51
+177-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
 178                    android:host="firebase.auth"
-178-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:40:21-49
+178-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
 179                    android:path="/"
-179-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:41:21-37
+179-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
 180                    android:scheme="recaptcha" />
-180-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:42:21-48
+180-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
 181            </intent-filter>
 182        </activity>
 183
 184        <service
-184-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:64:9-73:19
+184-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
 185            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-185-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:65:13-101
+185-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
 186            android:enabled="true"
-186-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:66:13-35
+186-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
 187            android:exported="false" >
-187-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:67:13-37
+187-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
 188            <intent-filter>
-188-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:68:13-72:29
+188-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
 189                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-189-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:17-89
-189-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:25-86
+189-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+189-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
 190
 191                <category android:name="android.intent.category.DEFAULT" />
-191-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:17-76
-191-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0bcc5d263fb04c8530765b8fcfd62f68\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:27-73
+191-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+191-->[com.google.firebase:firebase-auth:20.0.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/7fd5f3ee124b56fc10eece9ab698ffc5/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
 192            </intent-filter>
 193        </service>
 194
 195        <activity
-195-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+195-->[com.google.android.gms:play-services-base:17.2.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
 196            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-196-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+196-->[com.google.android.gms:play-services-base:17.2.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
 197            android:exported="false"
-197-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+197-->[com.google.android.gms:play-services-base:17.2.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
 198            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-198-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+198-->[com.google.android.gms:play-services-base:17.2.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
 199
 200        <provider
-200-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\581d239a5581b50e21c4860ca5a0e085\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+200-->[com.google.firebase:firebase-common:19.4.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/8acc57434b27af354516831ee973e85d/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
 201            android:name="com.google.firebase.provider.FirebaseInitProvider"
-201-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\581d239a5581b50e21c4860ca5a0e085\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+201-->[com.google.firebase:firebase-common:19.4.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/8acc57434b27af354516831ee973e85d/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
 202            android:authorities="zw.co.soloapp.firebaseinitprovider"
-202-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\581d239a5581b50e21c4860ca5a0e085\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+202-->[com.google.firebase:firebase-common:19.4.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/8acc57434b27af354516831ee973e85d/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
 203            android:directBootAware="true"
-203-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\581d239a5581b50e21c4860ca5a0e085\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+203-->[com.google.firebase:firebase-common:19.4.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/8acc57434b27af354516831ee973e85d/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
 204            android:exported="false"
-204-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\581d239a5581b50e21c4860ca5a0e085\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+204-->[com.google.firebase:firebase-common:19.4.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/8acc57434b27af354516831ee973e85d/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
 205            android:initOrder="100" />
-205-->[com.google.firebase:firebase-common:19.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\581d239a5581b50e21c4860ca5a0e085\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+205-->[com.google.firebase:firebase-common:19.4.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/8acc57434b27af354516831ee973e85d/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
 206
 207        <receiver
-207-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+207-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
 208            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-208-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+208-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
 209            android:enabled="true"
-209-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+209-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
 210            android:exported="false" >
-210-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+210-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
 211        </receiver>
 212
 213        <service
-213-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+213-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
 214            android:name="com.google.android.gms.measurement.AppMeasurementService"
-214-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+214-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
 215            android:enabled="true"
-215-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+215-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
 216            android:exported="false" />
-216-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+216-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
 217        <service
-217-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+217-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
 218            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-218-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+218-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
 219            android:enabled="true"
-219-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+219-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
 220            android:exported="false"
-220-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+220-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
 221            android:permission="android.permission.BIND_JOB_SERVICE" />
-221-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\05a90a808e62746237977cd708461625\play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+221-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/05a90a808e62746237977cd708461625/play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
 222
 223        <meta-data
-223-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0e710d557b8ed0dfc66aab470d08d3c6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+223-->[com.google.android.gms:play-services-basement:17.2.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/0215899052582181806734afde00f286/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
 224            android:name="com.google.android.gms.version"
-224-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0e710d557b8ed0dfc66aab470d08d3c6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+224-->[com.google.android.gms:play-services-basement:17.2.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/0215899052582181806734afde00f286/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
 225            android:value="@integer/google_play_services_version" />
-225-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0e710d557b8ed0dfc66aab470d08d3c6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+225-->[com.google.android.gms:play-services-basement:17.2.1] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/0215899052582181806734afde00f286/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
 226
 227        <activity
-227-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:20:9-224
+227-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:20:9-224
 228            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
-228-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:20:19-103
+228-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:20:19-103
 229            android:excludeFromRecents="true"
-229-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:20:104-137
+229-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:20:104-137
 230            android:launchMode="singleInstance"
-230-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:20:138-173
+230-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:20:138-173
 231            android:theme="@style/TSLocationManagerActivity" />
-231-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:20:174-222
+231-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:20:174-222
 232
 233        <service android:name="com.transistorsoft.locationmanager.service.TrackingService" />
-233-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:21:9-93
-233-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:21:18-91
+233-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:21:9-93
+233-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:21:18-91
 234        <service android:name="com.transistorsoft.locationmanager.service.LocationRequestService" />
-234-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:22:9-100
-234-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:22:18-98
+234-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:22:9-100
+234-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:22:18-98
 235        <service android:name="com.transistorsoft.locationmanager.service.HeartbeatService" />
-235-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:23:9-94
-235-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:23:18-92
+235-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:23:9-94
+235-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:23:18-92
 236        <service android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService" />
-236-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:24:9-104
-236-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:24:18-102
+236-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:24:9-104
+236-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:24:18-102
 237        <service android:name="com.transistorsoft.locationmanager.service.GeofencingService" />
-237-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:25:9-95
-237-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:25:18-93
+237-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:25:9-95
+237-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:25:18-93
 238        <service android:name="com.transistorsoft.locationmanager.service.BackgroundTaskService" />
-238-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:26:9-99
-238-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:26:18-97
+238-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:26:9-99
+238-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:26:18-97
 239
 240        <receiver
-240-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:27:9-127
+240-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:27:9-127
 241            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver"
-241-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:27:19-100
+241-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:27:19-100
 242            android:exported="false" />
-242-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:27:101-125
+242-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:27:101-125
 243
 244        <service android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService" />
-244-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:28:9-95
-244-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:28:18-93
+244-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:28:9-95
+244-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:28:18-93
 245        <service
-245-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:29:9-155
+245-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:29:9-155
 246            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
-246-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:29:18-96
+246-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:29:18-96
 247            android:permission="android.permission.BIND_JOB_SERVICE" />
-247-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:29:97-153
+247-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:29:97-153
 248
 249        <receiver
-249-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:30:9-35:20
+249-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:30:9-35:20
 250            android:name="com.transistorsoft.locationmanager.BootReceiver"
-250-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:30:19-81
+250-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:30:19-81
 251            android:exported="false" >
-251-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:30:82-106
+251-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:30:82-106
 252            <intent-filter>
-252-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:31:13-34:29
+252-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:31:13-34:29
 253                <action android:name="android.intent.action.BOOT_COMPLETED" />
-253-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:32:17-78
-253-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:32:25-76
+253-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:32:17-78
+253-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:32:25-76
 254                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-254-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:33:17-83
-254-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:33:25-81
+254-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:33:17-83
+254-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:33:25-81
 255            </intent-filter>
 256        </receiver>
 257
 258        <provider
-258-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:36:9-38:20
+258-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:36:9-38:20
 259            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
-259-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:36:19-89
+259-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:36:19-89
 260            android:authorities="zw.co.soloapp.tslocationmanager.fileprovider"
-260-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:36:90-159
+260-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:36:90-159
 261            android:exported="false"
-261-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:36:160-184
+261-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:36:160-184
 262            android:grantUriPermissions="true" >
-262-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:36:185-219
+262-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:36:185-219
 263            <meta-data
-263-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+263-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 264                android:name="android.support.FILE_PROVIDER_PATHS"
-264-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+264-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 265                android:resource="@xml/tslocationmanager_file_provider_path" />
-265-->[:image_picker] C:\Users\HP\AndroidStudioProjects\solo\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+265-->[:image_picker] /Users/maphosa/Downloads/solo2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 266        </provider>
 267
 268        <activity
-268-->[com.intentfilter:android-permissions:0.1.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c48e76588659d2e01542136616892fc\jetified-android-permissions-0.1.8\AndroidManifest.xml:12:9-15:59
+268-->[com.intentfilter:android-permissions:0.1.8] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/60a9864a2d477fa05349c03451348bf4/jetified-android-permissions-0.1.8/AndroidManifest.xml:12:9-15:59
 269            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
-269-->[com.intentfilter:android-permissions:0.1.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c48e76588659d2e01542136616892fc\jetified-android-permissions-0.1.8\AndroidManifest.xml:13:13-83
+269-->[com.intentfilter:android-permissions:0.1.8] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/60a9864a2d477fa05349c03451348bf4/jetified-android-permissions-0.1.8/AndroidManifest.xml:13:13-83
 270            android:excludeFromRecents="true"
-270-->[com.intentfilter:android-permissions:0.1.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c48e76588659d2e01542136616892fc\jetified-android-permissions-0.1.8\AndroidManifest.xml:14:13-46
+270-->[com.intentfilter:android-permissions:0.1.8] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/60a9864a2d477fa05349c03451348bf4/jetified-android-permissions-0.1.8/AndroidManifest.xml:14:13-46
 271            android:theme="@style/AppTheme.Transparent" />
-271-->[com.intentfilter:android-permissions:0.1.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c48e76588659d2e01542136616892fc\jetified-android-permissions-0.1.8\AndroidManifest.xml:15:13-56
+271-->[com.intentfilter:android-permissions:0.1.8] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/60a9864a2d477fa05349c03451348bf4/jetified-android-permissions-0.1.8/AndroidManifest.xml:15:13-56
 272
 273        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
-273-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:16:9-92
-273-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:16:19-89
+273-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:9-92
+273-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:16:19-89
 274
 275        <service
-275-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:18:9-21:72
+275-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:18:9-21:72
 276            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
-276-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:19:13-80
+276-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:19:13-80
 277            android:exported="true"
-277-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:20:13-36
+277-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:20:13-36
 278            android:permission="android.permission.BIND_JOB_SERVICE" />
-278-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:21:13-69
+278-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:21:13-69
 279
 280        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
-280-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:23:9-28:20
-280-->[com.transistorsoft:tsbackgroundfetch:0.4.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\90f2fc1f5e58e1e895fa74c71d9c61c9\tsbackgroundfetch-0.4.5\AndroidManifest.xml:23:19-83
+280-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:9-28:20
+280-->[com.transistorsoft:tsbackgroundfetch:0.4.5] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/90f2fc1f5e58e1e895fa74c71d9c61c9/tsbackgroundfetch-0.4.5/AndroidManifest.xml:23:19-83
 281            <intent-filter>
-281-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:31:13-34:29
+281-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:31:13-34:29
 282                <action android:name="android.intent.action.BOOT_COMPLETED" />
-282-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:32:17-78
-282-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:32:25-76
+282-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:32:17-78
+282-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:32:25-76
 283                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-283-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:33:17-83
-283-->[com.transistorsoft:tslocationmanager:3.1.19] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\19a0de48959620022d3c4d53eccffd67\tslocationmanager-3.1.19\AndroidManifest.xml:33:25-81
+283-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:33:17-83
+283-->[com.transistorsoft:tslocationmanager:3.1.19] /Users/maphosa/.gradle/caches/transforms-2/files-2.1/19a0de48959620022d3c4d53eccffd67/tslocationmanager-3.1.19/AndroidManifest.xml:33:25-81
 284            </intent-filter>
 285        </receiver>
 286    </application>

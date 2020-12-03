@@ -14,6 +14,9 @@ import '../utils/network_utils.dart';
 import './explore.dart';
 import './profile.dart';
 import 'widgets/widgets.dart';
+import 'package:solo_property_app/property/profile.dart';
+
+
 
 SharedPreferences localStorage;
 

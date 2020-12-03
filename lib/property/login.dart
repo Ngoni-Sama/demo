@@ -5,7 +5,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:solo_property_app/property/property_listing.dart';
 import 'package:solo_property_app/property/property_sell.dart';
 import 'package:solo_property_app/utils/solo_theme.dart';
-
 import 'dart:async';
 import 'package:email_validator/email_validator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
