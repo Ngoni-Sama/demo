@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138807013176",
+    "firebase_url": "https://solo-44b8d.firebaseio.com",
+    "project_id": "solo-44b8d",
+    "storage_bucket": "solo-44b8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138807013176:android:90584cde8af5460cf81bcd",
+        "android_client_info": {
+          "package_name": "zw.co.soloapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138807013176-2a237dj0qj7m0c0075m9t3l2cqf2u1d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVyWz59f8vBGSgYjuFkhLLcwO1WZ52Q88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138807013176-2a237dj0qj7m0c0075m9t3l2cqf2u1d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

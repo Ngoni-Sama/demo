@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.intentfilter:android-permissions:0.1.8@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f0f21e5a43859c99da526353a258194/jetified-android-permissions-0.1.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f0f21e5a43859c99da526353a258194/jetified-android-permissions-0.1.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f0f21e5a43859c99da526353a258194/jetified-android-permissions-0.1.8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

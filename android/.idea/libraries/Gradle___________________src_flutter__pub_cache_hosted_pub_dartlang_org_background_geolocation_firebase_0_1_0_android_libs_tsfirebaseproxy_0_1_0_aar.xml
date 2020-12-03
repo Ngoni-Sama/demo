@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/background_geolocation_firebase-0.1.0/android/libs/tsfirebaseproxy-0.1.0.aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d26f8f796581ea7a92e4ba8934a67e9f/jetified-tsfirebaseproxy-0.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d26f8f796581ea7a92e4ba8934a67e9f/jetified-tsfirebaseproxy-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d26f8f796581ea7a92e4ba8934a67e9f/jetified-tsfirebaseproxy-0.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
